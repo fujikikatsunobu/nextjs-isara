@@ -1,0 +1,64 @@
+.LText::before,
+.LText::after,
+.WText::before,
+.WText::after {
+  position: absolute;
+  content: "";
+  width: 50px;
+  height: 50px;
+  box-sizing: border-box;
+}
+
+.LText::before {
+  top: 0;
+  left: 0;
+  border-top: 4px solid #edd94d;
+  border-left: 4px solid #edd94d;
+}
+
+.LText::after {
+  bottom: 0;
+  right: 0;
+  border-bottom: 4px solid #edd94d;
+  border-right: 4px solid #edd94d;
+}
+
+.WText::before {
+  top: 0;
+  left: 0;
+  border-top: 4px solid #fff;
+  border-left: 4px solid #fff;
+}
+
+.WText::after {
+  bottom: 0;
+  right: 0;
+  border-bottom: 4px solid #fff;
+  border-right: 4px solid #fff;
+}
+
+.Triangle::after {
+  position: absolute;
+  content: "";
+  height: 0;
+  width: 0;
+  border: 25px solid transparent;
+  border-top-color: #ebb94d;
+  top: 100%;
+  left: 48%;
+}
+
+@media screen and (max-width:768px) {
+  .Triangle::after {
+    top: 99%;
+    left: 44%;
+  }
+}
+
+.QuestionToggle::after {
+  position: absolute;
+  content: "🔽";
+  color: #e5e5e5;
+  left: 95%;
+  top: 25%;
+}

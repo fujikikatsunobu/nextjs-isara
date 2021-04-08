@@ -1,0 +1,38 @@
+{
+  "name": "isara_nextjs",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.34",
+    "@fortawesome/free-brands-svg-icons": "^5.15.2",
+    "@fortawesome/free-solid-svg-icons": "^5.15.2",
+    "@fortawesome/react-fontawesome": "^0.1.14",
+    "autoprefixer": "^10.2.4",
+    "next": "10.0.6",
+    "postcss": "^8.2.6",
+    "react": "17.0.1",
+    "react-accessible-accordion": "^3.3.4",
+    "react-dom": "17.0.1",
+    "react-icons": "^4.2.0",
+    "react-responsive": "^8.2.0",
+    "tailwindcss": "^2.0.3"
+  },
+  "description": "This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).",
+  "main": "next.comfig.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fujikikatsunobu/isara.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fujikikatsunobu/isara/issues"
+  },
+  "homepage": "https://github.com/fujikikatsunobu/isara#readme"
+}
